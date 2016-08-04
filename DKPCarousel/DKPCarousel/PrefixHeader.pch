@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  DKPCarousel
+//
+//  Created by DP on 16/7/30.
+//  Copyright © 2016年 DP. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define DKPPageSource  @[@"http://image.wufazhuce.com/FoOpTU7zYSOUKFglFUVlzo4OYWWN",@"http://image.wufazhuce.com/Ft6gQo2AdT-4Z4A9wFz_EfVC1qkh",@"http://image.wufazhuce.com/FtBfxmeQlE9q4KkrOL2mO2Cl0DIW",@"http://image.wufazhuce.com/FlxLJaKp023M1g4oFIsaKyulB3uo",@"http://image.wufazhuce.com/Fnmw6ZGKF5ZBgjHJYxkyZFrd1IMD"]
+
+#define DKPScreenW [UIScreen mainScreen].bounds.size.width
+#define DKPScreenH [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */
