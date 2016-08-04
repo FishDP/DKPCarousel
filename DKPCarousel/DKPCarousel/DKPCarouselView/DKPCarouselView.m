@@ -34,6 +34,7 @@
 
 #pragma mark ------------
 #pragma mark 初始化
+
 - (instancetype)initWithPersonalFrame:(CGRect)personalFrame pageControlFrame:(CGRect)pageControlFrame PageSource:(NSArray*)pages TotalTime:(NSInteger) totalTime StopTime:(NSInteger) stopTime {
     if (self = [super initWithFrame:personalFrame]) {
         self.window.rootViewController.automaticallyAdjustsScrollViewInsets = NO;
@@ -245,6 +246,9 @@
 //点击图片
 - (void)pictureClick {
     //打开网页
+    if (self.advertisementUrlString == nil) {
+        return;
+    }
     SFSafariViewController *sarfari = [[SFSafariViewController alloc]initWithURL:[NSURL URLWithString:self.advertisementUrlString]];
     [self.window.rootViewController presentViewController:sarfari animated:YES completion:nil];
     

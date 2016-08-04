@@ -33,7 +33,6 @@
     [self.view addSubview:pageControlCarouselView2];
 
     
-
      DKPCarouselView * pageControlCarouselView3 = [DKPCarouselView carouselWithPersonalFrame:CGRectMake(0, 64 + 300, DKPScreenW, 150) pageControlFrame:CGRectMake(270, 130, 50, 20)  PageSource:DKPPageSource TotalTime:4 StopTime:2];
     pageControlCarouselView3.pageControlCurrentIamge = [UIImage imageNamed:@"common_icon_membership"];
     pageControlCarouselView3.pageControlOtherIamge = [UIImage imageNamed:@"common_icon_membership_expired"];
