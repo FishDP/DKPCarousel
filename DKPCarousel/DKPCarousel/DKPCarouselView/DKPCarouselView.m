@@ -64,9 +64,6 @@
     
     return [[self alloc]initWithPersonalFrame:personalFrame pageControlFrame:pageControlFrame PageSource:pages TotalTime:totalTime StopTime:stopTime];
 }
-
-
-
 #pragma mark ------------
 #pragma mark set方法
 //设置广告

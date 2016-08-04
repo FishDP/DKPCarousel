@@ -37,8 +37,6 @@ typedef NS_ENUM (NSInteger, CarouselDirection) {
 //广告ulr
 @property (nonatomic, copy) NSString *advertisementUrlString;
 
-
-
 /**
  * 初始化方法
  *
