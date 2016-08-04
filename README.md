@@ -45,4 +45,4 @@ self.automaticallyAdjustsScrollViewInsets = NO;
 @property (nonatomic, copy) NSString *advertisementUrlString;
 ```
 ### 部分效果图
-![image](https://github.com/FishDP/resource.git/resuorce/resuorce/custom.gif)
+![image](https://github.com/FishDP/resource/blob/master/custom.gif)
